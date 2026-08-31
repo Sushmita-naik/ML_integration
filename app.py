@@ -4,7 +4,7 @@ import numpy as np
 # Load model
 model = joblib.load("bus_model.pkl")
 
-print("Bus Arrival Time Predictor 🚍")
+print("Bus Arrival Time Predictor ")
 print("Enter bus details:\n")
 
 distance = float(input("Distance from stop (km): "))
